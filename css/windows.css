@@ -1,15 +1,20 @@
 body{
   background-image:
    url("http://i.imgur.com/CYKk0Q0.png");
-   background-color: transparent; 
+   background-color: transparent;
  }
 div{
   height: 100%;
   width: 60%;
-  background-color: white;
   margin-right: auto;
   margin-left: auto;
   text-align:center;
+  background-color: white;
+}
+#center{
+  margin-right: auto;
+  margin-left: auto;
+  position: center;
 }
 h1{
   text-align: center;
@@ -17,14 +22,11 @@ h1{
 
  ul.menu{
 	 list-style-type:none;
+   text-align: center;
  }
  li.menu{
 	 text-align: center;
-   display: inline-block;
-   padding-left: 10px;
-   padding-top:10px;
-   padding-bottom:10px;
-   padding-right: 10px;
+   display: block;
  }
 li.menu:hover{
   background-color: rgb(33, 33, 33);
